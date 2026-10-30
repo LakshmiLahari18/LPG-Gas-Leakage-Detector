@@ -1,49 +1,40 @@
 
-LPG Gas Leakage Detector
+# LPG Gas Leakage Detector
 
-Project Overview
+## Project Overview
+An LPG gas leakage detection prototype using Arduino UNO and MQ-2 gas sensor.
 
-An Arduino-based LPG gas leakage detection system using an MQ-2 gas sensor.
+## Objective
+To detect elevated gas levels and alert users through a buzzer.
 
-Objective
-
-To detect elevated gas levels and alert users through a buzzer and LED.
-
-Hardware Components
-
+## Hardware Components
 - Arduino UNO
 - MQ-2 Gas Sensor
 - Buzzer
-- LED
-- 220 Ohm Resistor
 - Breadboard
 - Jumper Wires
+- USB Cable
 
-Working Principle
-
+## Working Principle
 1. MQ-2 sensor monitors the surrounding air.
-2. Sensor sends an analog signal to Arduino UNO.
-3. Arduino compares the reading with a predefined threshold.
-4. If the reading exceeds the threshold, the buzzer and LED turn ON.
-5. Otherwise, they remain OFF.
+2. The sensor sends an analog signal to Arduino UNO.
+3. Arduino reads the sensor value.
+4. If the value crosses the predefined threshold, the buzzer turns ON.
+5. Otherwise, the buzzer remains OFF.
 
-Pin Connections
+## Pin Connections
+| Component | Arduino Pin |
+|---|---|
+| MQ-2 AO | A0 |
+| Buzzer | D8 |
 
-Component| Arduino Pin
-MQ-2 AO| A0
-Buzzer| D8
-LED| D7
-
-Programming Language
-
+## Programming Language
 Arduino C/C++
 
-Applications
+## Applications
+- Gas monitoring demonstrations
+- Educational safety projects
+- Embedded systems learning
 
-- Kitchen safety demonstrations
-- Gas monitoring prototypes
-- Educational IoT projects
-
-Safety Disclaimer
-
-This is an educational prototype, not a certified gas safety device. It must not replace certified LPG detectors or safety systems.
+## Safety Disclaimer
+This is an educational prototype and is not a certified gas safety device. Do not use it as a replacement for certified LPG detectors.
