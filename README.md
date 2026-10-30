@@ -1,5 +1,4 @@
-# LPG-Gas-Leakage-Detector
-An IoT based LPG gas leakage detection system
+
 LPG Gas Leakage Detector
 
 Project Overview
