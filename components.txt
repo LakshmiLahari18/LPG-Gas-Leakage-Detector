@@ -1,0 +1,13 @@
+
+LPG GAS LEAKAGE DETECTOR
+
+Components Required:
+
+1. Arduino UNO
+2. MQ-2 Gas Sensor Module
+3. Active Buzzer
+4. LED
+5. 220 Ohm Resistor
+6. Breadboard
+7. Jumper Wires
+8. USB Cable
