@@ -14,6 +14,10 @@ To detect elevated gas levels and alert users through a buzzer.
 - Breadboard
 - Jumper Wires
 - USB Cable
+- ## Block Diagram
+
+![LPG Gas Leakage Detector Block Diagram]
+(LPG_Gas_Leakage_Block_Diagram.png)
 
 ## Working Principle
 1. MQ-2 sensor monitors the surrounding air.
